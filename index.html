@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hey I am jahid. I am a professional web designer.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jahid Iqbal Biswas</title>
+    <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+
+<body>
+
+    <header id="home">
+        <nav>
+            <div class="container">
+                <div class="navWrapper">
+                    <a href="#home" class="logo">
+                        jahid iqbal biswas
+                    </a>
+                    <ul>
+                        <li>
+                            <a class="active" href="#home">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#service">SERVICE</a>
+                        </li>
+                        <li>
+                            <a href="#team">TEAM</a>
+                        </li>
+                        <li>
+                            <a href="#skill">SKILL</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="#testimonial">TESTIMONIAL</a>
+                        </li>
+                        <li>
+                            <a href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <div class="mobileMenu">
+                        <span onclick="openMenu()">&#9776;</span>
+                    </div>
+                </div>
+                <div id="myMblNav" class="mblMenuOverlay">
+                    <a class="closeBtn" onclick="closeNav()" href="javascript:void(0)">&times;</a>
+                    <div class="mblMenuItemOverlay">
+                        <a onclick="closeNav()" href="#home">HOME</a>
+
+
+                        <a onclick="closeNav()" href="#service">SERVICE</a>
+
+
+                        <a onclick="closeNav()" href="#team">TEAM</a>
+
+
+                        <a onclick="closeNav()" href="#skill">SKILL</a>
+
+
+                        <a onclick="closeNav()" href="#portfolio">PORTFOLIO</a>
+
+                        <a onclick="closeNav()" href="#testimonial">TESTIMONIAL</a>
+
+
+                        <a onclick="closeNav()" href="#contact">CONTACT</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="heroTextBox">
+                <h1>
+                    Hi there! I am the new kid on the block and I build awesome websites.
+                </h1>
+                <a class="btn" href="#contact">
+                        HIRE ME !
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <!--services-->
+
+    <section class="service clearFix sticky-section" id="service">
+        <div class="container">
+            <div class="title">
+                <h2>SERVICES I PROVIDE</h2>
+                <p>We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="serviceItemWrapper">
+                    <img src="resources/img/flag.png" alt="flag">
+                    <div class="serviceItemTitle">
+                        <h3>BRANDING</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="serviceItemWrapper">
+                    <img src="resources/img/crayon.png" alt="flag">
+                    <div class="serviceItemTitle">
+                        <h3>DESIGN</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem ipsum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="serviceItemWrapper">
+                    <img src="resources/img/gears.png" alt="flag">
+                    <div class="serviceItemTitle">
+                        <h3>DEVELOPMENT</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="serviceItemWrapper">
+                    <img src="resources/img/rocket.png" alt="flag">
+                    <div class="serviceItemTitle">
+                        <h3>ROCKET SCIENCE</h3>
+                        <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--team section-->
+    <section class="team clearFix" id="team">
+        <div class="container">
+            <div class="title">
+                <h2>MEET OUR BEAUTIFUL TEAM</h2>
+                <p>We are a small team of designers and developers, who help brands with big ideas.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="teamItemWrapper">
+                    <div class="teamImage">
+                        <img src="resources/img/1.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h3>ANNE HATHAWAY</h3>
+                        <span>CEO / Marketing Guru</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                        <ul class="socialIcon">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="teamItemWrapper">
+                    <div class="teamImage">
+                        <img src="resources/img/2.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h3>Kate Upton</h3>
+                        <span>Creative Director</span>
+                        <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                        <ul class="socialIcon">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="teamItemWrapper">
+                    <div class="teamImage">
+                        <img src="resources/img/3.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h3>Olivia Wilde</h3>
+                        <span>Lead Designer</span>
+                        <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt..</p>
+                        <ul class="socialIcon">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="teamItemWrapper">
+                    <div class="teamImage">
+                        <img src="resources/img/4.jpg" alt="">
+                    </div>
+                    <div class="teamDetails">
+                        <h3>Ashley Greene</h3>
+                        <span>SEO / Developer</span>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <ul class="socialIcon">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--skill section-->
+    <section class="skill clearFix" id="skill">
+        <div class="container">
+            <div class="title">
+                <h2>I GOT SKILLS!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                  </svg>
+                <h3>WEB DESIGN</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress html-css" data-percentage="82" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
+                  </svg>
+                <h3>HTML & CSS</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                  </svg>
+                <h3>GRAPHIC DESIGN</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                  </svg>
+                <h3>UI / UX</h3>
+            </div>
+        </div>
+    </section>
+    <!--portfolio section-->
+    <section class="portfolio clearFix" id="portfolio">
+        <div class="container">
+            <div class="title">
+                <h2>MY PORTFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="portfolio-buttons">
+                <button type="button" data-filter="all">
+                    all
+                </button>
+                <button type="button" data-filter=".web">
+                    web
+                </button>
+                <button type="button" data-filter=".app">
+                    apps
+                </button>
+                <button type="button" data-filter=".icon">
+                    icons
+                </button>
+            </div>
+            <div class="portfolioItem">
+                <div class="col span_1_of_2 box ml-0">
+                    <div class="portfolioItemWrapper mix web">
+                        <a href="https://bsoft.netlify.app/" target="blank">
+                            <img src="./resources/img/portfolio1.png" alt="ISOMETRIC PERSPECTIVE MOCK-UP">
+                            <h4>ISOMETRIC PERSPECTIVE MOCK-UP</h4>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="portfolioItemWrapper mix app">
+                        <a href="https://msoft.netlify.app/" target="blank">
+                            <img src="./resources/img/portfolio2.png" alt="Time Zone App UI">
+                            <h4>Time Zone App UI</h4>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box ml-0">
+                    <div class="portfolioItemWrapper mix web icon">
+                        <a href="https://brigate.netlify.app/" target="blank">
+                            <img src="./resources/img/portfolio3.png" alt="Viro Media Players UI">
+                            <h4>Viro Media Players UI</h4>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="portfolioItemWrapper mix web icon">
+                        <a href="https://my-commerce.netlify.app/" target="blank">
+                            <img src="./resources/img/portfolio4.png" alt="Blog / Magazine Flat UI Kit">
+                            <h4>Blog / Magazine Flat UI Kit</h4>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/jahidIqbalBiswas?tab=repositories" target="blank" class="btn load-more">see more projects</a>
+        </div>
+    </section>
+    <!--testimonial section-->
+    <section class="testimonial clearFix" id="testimonial">
+        <div class="container">
+            <div class="title">
+                <h2>WHAT POEPLE SAY ABOUT ME</h2>
+                <p>My clients love me!</p>
+            </div>
+            <div class="testimonialItemsWrapper">
+                <div class="col span_1_of_2 box">
+                    <div class="testimonialInnerItemsWrapper">
+                        <img class="img" src="resources/img/1.jpg" alt="">
+                        <div class="testimonialDetails">
+                            <q>                                    
+                            Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.
+                        </q>
+                            <h3>CHANEL IMAN</h3>
+                            <span>CEO Of Pinterest</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="testimonialInnerItemsWrapper">
+                        <img class="img" src="resources/img/2.jpg" alt="">
+                        <div class="testimonialDetails">
+                            <q>                            Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.
+                        </q>
+                            <h3>ADRIANA LIMA </h3>
+                            <span>Founder of Instagram
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box ml-0">
+                    <div class="testimonialInnerItemsWrapper">
+                        <img class="img" src="resources/img/3.jpg" alt="">
+                        <div class="testimonialDetails">
+                            <q>                            Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.
+                        </q>
+                            <h3>ANNE HATHAWAY
+                            </h3>
+                            <span>Lead Designer at Behance
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="testimonialInnerItemsWrapper">
+                        <img class="img" src="resources/img/4.jpg" alt="">
+                        <div class="testimonialDetails">
+                            <q>                            Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.
+                        </q>
+                            <h3>EMMA STONE
+                            </h3>
+                            <span>Co-Founder of Shazam
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section-->
+    <section class="contact clearFix" id="contact">
+        <div class="container">
+            <div class="title">
+                <h2>GET IN TOUCH</h2>
+                <p>1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+                </p>
+            </div>
+            <form action="https://formspree.io/zahidbiswas1@gmail.com" method="POST">
+                <div class="col span_1_of_2">
+                    <input type="text" name="Name" placeholder="Your Name *" required>
+                </div>
+                <div class="col span_1_of_2">
+                    <input type="email" name="Email" placeholder="Your Email *" required>
+                </div>
+
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+                <input type="submit" value="SEND MESSAGE" class="btn submit-btn">
+            </form>
+        </div>
+    </section>
+    <!--footer section-->
+    <footer>
+        <div class="container">
+            <div class="footerItemsWrapper">
+                <span> &copy; copyright all right reserved by <a href="https://bsoft.netlify.app/"> biswas softwares</a></span>
+                <div class="social-footer-icons">
+                    <small>Follow Me On :-</small>
+                    <ul>
+                        <li title="github"><a href="https://github.com/jahidIqbalBiswas?tab=repositories"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                        <li title="facebook">
+                            <a href="https://www.facebook.com/jahidiqbal.biswas.1"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li title="twitter">
+                            <a href="https://twitter.com/JahidIqbalBisw1"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#home" title="Back To Top" class="backToTop">&UpArrow;</a>
+    <!--preloader-->
+    <div class="preloader" style="background: #000;">
+        <img src="./resources/img/preloader4.gif" alt="">
+    </div>
+    <!-- JS SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="./vendors/js/animated-scrollbar.js"></script>
+    <script src="./vendors/js/mixitup.min.js"></script>
+    <script src="./vendors/js/waypoints.min.js"></script>
+    <script src="./resources/js/app.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179501903-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179501903-1');
+    </script>
+</body>
+
+</html>
